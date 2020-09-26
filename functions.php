@@ -36,5 +36,6 @@
 	// Adding Menu
 
 	register_nav_menus([
-		'main-menu' => __('Main Menu', 'mahekarim')
+		'main-menu' => __('Main Menu', 'mahekarim'),
+		'footer-menu' => __('Footer Menu', 'mahekarim')
 	]);

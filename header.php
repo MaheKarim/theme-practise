@@ -8,3 +8,16 @@
 	<title>Mahe First  Theme</title>
 	<?php wp_head(); ?>
 </head>
+<body>
+
+<nav id="site navigation" class="main-navigation" role="navigation">
+	<?php
+		if (has_nav_menu('main-menu')) {
+			wp_nav_menu([
+				'theme_location' => 'main-menu'
+			]);
+		}
+	?>
+</nav>
+
+</body>

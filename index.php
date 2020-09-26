@@ -1,7 +1,5 @@
-<?php get_header('mahe') ?>
-<body>
-		<h1>Index Page</h1>
-</body>
+<?php get_header() ?>
 
+    <h1>Index Page</h1>
 
-<?php get_footer('mahe'); ?>
+<?php get_footer(); ?>
