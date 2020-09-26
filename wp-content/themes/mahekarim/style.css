@@ -8,3 +8,7 @@ Requires PHP: 7.3
 Description: Lorem Ipsum Dolor Site Mahe Karim Is Here
 Text Domain: mahekarim
 */
+
+body{
+    background-color: #00d082;
+}
