@@ -34,8 +34,11 @@
 	add_action('wp_enqueue_scripts', 'mahekarim_cssScripts');
 	
 	// Adding Menu
-
 	register_nav_menus([
 		'main-menu' => __('Main Menu', 'mahekarim'),
 		'footer-menu' => __('Footer Menu', 'mahekarim')
 	]);
+	
+	
+	
+	
